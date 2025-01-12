@@ -99,3 +99,8 @@ This project documents hands-on research and analysis of Linux rootkits. It expl
 **Stephanie Vergil**
 
 This repository captures hands-on work and analysis, providing a guide for detecting and mitigating Linux rootkits. For a detailed report, refer to the [full document](https://github.com/StephVergil/Analyzing-Linux-Rootkits/blob/main/Homework%208%20Linux%20Rootkits.docx).
+
+---
+
+### Disclaimer
+This project was conducted in a controlled environment. Unauthorized use of these techniques or tools outside such an environment may violate ethical guidelines and legal regulations.
