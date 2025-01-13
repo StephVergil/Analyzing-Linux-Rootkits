@@ -101,6 +101,23 @@ This project documents hands-on research and analysis of Linux rootkits. It expl
 This repository captures hands-on work and analysis, providing a guide for detecting and mitigating Linux rootkits. For a detailed report, refer to the [full document](https://github.com/StephVergil/Analyzing-Linux-Rootkits/blob/main/Homework%208%20Linux%20Rootkits.docx).
 
 ---
+## Recommended Tools for Rootkit Detection
+
+The following tools, suggested by [MatheuZSecurity](https://github.com/MatheuZSecurity) in [this comment](https://github.com/StephVergil/Analyzing-Linux-Rootkits/issues/1#issue-2782741269), are valuable for detecting and analyzing modern LKM rootkits:
+
+1. **[ModTracer](https://github.com/MatheuZSecurity/ModTracer)**  
+   A lightweight tool for tracing kernel module interactions. Great for debugging and understanding module behavior.
+
+2. **[Nitara2](https://github.com/ksen-lin/nitara2)**  
+   A powerful tool for detecting and analyzing kernel-based rootkits with a focus on dynamic detection.
+
+3. **[Tracee](https://github.com/aquasecurity/tracee)**  
+   A runtime security and forensic tool for Linux systems, using trace-based detection methods.
+
+### Additional Resource
+For a detailed guide on detecting LKM rootkits, check out the [Detect LKM Rootkit Cheatsheet](https://github.com/MatheuZSecurity/detect-lkm-rootkit-cheatsheet) by [MatheuZSecurity](https://github.com/MatheuZSecurity).
+
+---
 
 ### Disclaimer
 This project was conducted in a controlled environment. Unauthorized use of these techniques or tools outside such an environment may violate ethical guidelines and legal regulations.
